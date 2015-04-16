@@ -1,5 +1,9 @@
-require 'simplecov'
-SimpleCov.start
+begin
+  # coverage is optional
+  require 'simplecov'
+  SimpleCov.start
+rescue Exception
+end
 
 if ENV["TRAVIS"] || ENV["COVERALLS_RUN_LOCALLY"]
   require 'coveralls'
