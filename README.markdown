@@ -3,7 +3,6 @@
 Automatically retry a code block when an exception occurs.
 
 [![Build Status](https://api.travis-ci.org/bronson/retryable.png?branch=master)](http://travis-ci.org/bronson/retryable)
-[![Code Climate](https://codeclimate.com/github/bronson/retryable.png)](https://codeclimate.com/github/bronson/retryable)
 [![Dependency Status](https://gemnasium.com/bronson/retryable.png)](https://gemnasium.com/bronson/retryable)
 
     require "retryable"
