@@ -5,11 +5,6 @@ begin
 rescue Exception
 end
 
-if ENV["TRAVIS"] || ENV["COVERALLS_RUN_LOCALLY"]
-  require 'coveralls'
-  Coveralls.wear!
-end
-
 require File.dirname(File.expand_path(__FILE__)) + '/../lib/retryable'
 
 describe "Retryable" do
