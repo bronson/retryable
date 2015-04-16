@@ -12,3 +12,4 @@ rvm:
   - jruby-head
   - rbx-18mode
   - rbx-2
+bundler_args: --without coverage
